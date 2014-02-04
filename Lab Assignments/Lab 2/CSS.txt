@@ -1,0 +1,12 @@
+#weather {
+    background:White;
+    height:1000px;
+    width:1000px;
+}
+#currentConditions {
+    float: left;
+}
+#currentIcon {
+    float: left;
+    margin: 1 .50cm;
+}

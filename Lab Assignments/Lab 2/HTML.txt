@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<Title>Weather Services</Title>
+<body>
+    <div data-role="page" id="IntroPage">
+        <div data-role="header">
+        <a data-rel="back" data-icon="home">Home</a>
+        <h1> ASE Lab Assignment-2</h1>
+        </div>
+    
+        <div data-role="content">
+        <p><a href="#WeatherReportPage" data-role="button"> Get Weather Report Here..</a>
+        </p>
+        </div>
+    </div>
+    
+    <div data-role="page" id="WeatherReportPage">
+        <div data-role="header">
+        <a data-rel="back" data-icon="home">Home</a>
+        <h1> ASE Lab Assignment-2</h1>
+        </div>
+    <div data-role="content" id="weatherModule">
+        <p id="currentConditions"></p>
+        <div id="currentIcon"></div>
+    </div>
+</div>
+</body>    
