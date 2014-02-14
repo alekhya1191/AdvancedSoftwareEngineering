@@ -1,0 +1,74 @@
+<title>ASE Mashup Application</title>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+    <!-- Copy the javascript code here if you wish to try this code. -->
+</script>
+
+<body bgcolor= "#E6E6FA" onload="initialize()">
+    <h1 align = "center"> ASE Mashup Application </h1>
+     <h2 align = "center">UMKC to UMSL</h2>
+<div id="map_canvas" style="height: 500px; width: 500px"></div>
+</body>
+
+<h2 align = "center">Students Population chart</h2>
+<img src="//chart.googleapis.com/chart?chs=250x100&chco=7777CC|
+76A4FB&chd=t:50,50&cht=p3&chl=UMKC|UMSL" width="300" height="300" 
+alt="" />
+
+<h2 align = "center">Connect Youself</h2>
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+<p align = "center"> Twitter </p>
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+<br><br>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    
+    <br><br>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        
+        
+<p align = "center">Facebook</p>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://jsfiddle.net/alekhya1191/MRHQ4/175/" data-width="450" data-show-faces="true" data-send="true"></div><br> <br>
+<div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-href="http://jsfiddle.net/alekhya1191/MRHQ4/175/" data-width="470"></div>
+      <a href="#" 
+  onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+    return false;">
+  Share on Facebook
+</a>
+        
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+        <div class="fb-like-box" data-href="http://jsfiddle.net/alekhya1191/MRHQ4/175/" data-width="292" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+
+
+
